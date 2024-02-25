@@ -19,7 +19,7 @@ const Header = () => {
             <Link className=''> News </Link>
             <Link className=''> Contact Us </Link>
             <Link className=''> About </Link>
-            <Link className='split'> Donate </Link>
+            <Link to={"/donation"} className='split'> Donate </Link>
             {/* <a class="active" href="#home">Home</a> */}
             {/* <a href="#news">News</a>
             <a href="#contact" class="split">Contact</a>

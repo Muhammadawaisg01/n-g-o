@@ -9,7 +9,7 @@ import data from "../../Lecture_files/Data";
 import Library from "./Library";
 import Nav from "./Navb";
 
-import React from 'react'
+import React from 'react';
 
 const Lectures = () => {
     const [songs, setSongs] = useState(data());
