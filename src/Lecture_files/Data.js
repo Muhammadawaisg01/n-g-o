@@ -2,17 +2,6 @@ import { v4 as uuidv4 } from "uuid";
 function chillHop() {
     return [
         {
-            name: "Sunrise Serenade",
-            cover:
-                "https://media.geeksforgeeks.org/wp-content/uploads/20210224040124/JSBinCollaborativeJavaScriptDebugging6.png",
-            artist: " Harmony Harp",
-            audio:
-                "https://media.geeksforgeeks.org/wp-content/uploads/20231004185212/Jawan-Prevue-Theme.mp3",
-            color: ["#205950", "#2ab3bf"],
-            id: uuidv4(),
-            active: true,
-        },
-        {
             name: "Urban Groove",
             cover:
                 "https://media.geeksforgeeks.org/wp-content/uploads/20231004210806/DemotivationalPosterfull936506.jpg",
@@ -21,7 +10,7 @@ function chillHop() {
                 "https://media.geeksforgeeks.org/wp-content/uploads/20231004184006/SoundHelix-Song-10.mp3",
             color: ["#EF8EA9", "#ab417f"],
             id: uuidv4(),
-            active: false,
+            active: true,
         },
         {
             name: "Mystic Echo",

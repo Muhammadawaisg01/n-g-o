@@ -5,6 +5,7 @@ import image1 from "../../images/image-1.jpeg";
 import image2 from "../../images/image-2.jpeg";
 import image3 from "../../images/image-3.jpeg";
 import image4 from "../../images/image-4.jpeg";
+import "./News.css";
 
 import NewsCard from './NewsCard';
 
@@ -27,12 +28,14 @@ const News = () => {
     return (
 
         <div className='  border-bottom: 1px solid rgba(21, 21, 21, 0.5);'>
-            <h1> Latest News </h1>
-            {objects.map((obj) => {
-                return (
-                    <NewsCard img={obj.image} desc={obj.desc} />
-                )
-            })}
+            <h1 className='main_heading'> Latest News </h1>
+            <div>
+                {objects.map((obj) => {
+                    return (
+                        <NewsCard img={obj.image} desc={obj.desc} />
+                    )
+                })}
+            </div>
             <br />
         </div>
 
